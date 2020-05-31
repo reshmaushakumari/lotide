@@ -6,8 +6,8 @@ const eqArrays = function(firstArray,secondArray) {
       if (firstArray[i] !== secondArray[i]) {
         return false;
       }
-      return true;
     }
+    return true;
 };
 
 module.exports = eqArrays;
